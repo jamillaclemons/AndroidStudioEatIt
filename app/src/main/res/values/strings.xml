@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AndroidEatIt</string>
+    <string name="sloganTextView">No matter where you are: whether you are at home, or in the office or on the beach - we will find you and feed you</string>
+    <string name="btnJoin">Join</string>
+    <string name="btnSignIn">Sign In</string>
+    <string name="titleTextView">Eat It</string>
+
+
+</resources>
+
+

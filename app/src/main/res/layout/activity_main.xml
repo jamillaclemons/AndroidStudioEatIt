@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/jonathan_borba_xohjz2ubxgu_unsplash"
+    android:orientation="vertical"
+    android:textAlignment="center"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/sloganTextView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FD0E0505"
+            android:gravity="center"
+            android:text="@string/sloganTextView"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textColor="@android:color/white"
+            android:textSize="12sp"
+            android:textStyle="normal" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/btnJoin"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#181004"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="@string/btnJoin"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white" />
+
+
+        <Button
+            android:id="@+id/btnSignIn"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#130E04"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="@string/btnSignIn"
+            android:textAllCaps="true"
+            android:textColor="@android:color/holo_green_light" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="351dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="false"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="389dp"
+        android:background="#CCBDA9"
+        android:backgroundTint="#90EEE0D1"
+        android:backgroundTintMode="src_in"
+        android:fontFamily="@font/berkshire_swash"
+        android:gravity="center"
+        android:shadowColor="#F3968484"
+        android:text="@string/titleTextView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#F7181515"
+        android:textColorHint="#E6220404"
+        android:textSize="90sp"
+        android:textStyle="bold"
+        app:drawableTint="#F5FFFFFF" />
+
+
+</RelativeLayout>
